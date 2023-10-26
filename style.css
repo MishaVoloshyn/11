@@ -1,0 +1,531 @@
+* {
+    box-sizing: border-box;
+}
+
+.color1 {
+    color: rgb(121, 54, 148);
+}
+
+.color2 {
+    color: rgb(118, 120, 161);
+}
+
+.color3 {
+    color: red;
+}
+
+.color4 {
+    color: grey;
+}
+
+.color5 {
+    color: white;
+}
+
+.color6 {
+    color: black;
+}
+
+.color7 {
+    color: green;
+}
+
+.color8 {
+    color: rgb(83, 163, 83);
+}
+
+.bgcolor1 {
+    background-color: rgb(244, 248, 252);
+}
+
+.bgcolor2 {
+    background-color: rgb(244, 248, 252);
+}
+
+.bgcolor3 {
+    background-color: rgb(204, 240, 138);
+}
+
+.bgcolor4 {
+    background-color: grey;
+}
+
+.bgcolor5 {
+    background-color: rgb(14, 73, 78);
+}
+
+.bgcolor6 {
+    background-color: rgb(35, 97, 103);
+}
+
+.bgcolor7 {
+    background-color: rgb(237, 158, 174);
+}
+
+.bgcolor8 {
+    background-color: rgb(198, 99, 118);
+}
+
+.bgcolor9 {
+    background-color: rgb(158, 53, 74);
+}
+
+.bgcolor10 {
+    background-color: rgb(226, 226, 226);
+}
+
+.bgcolor11 {
+    background-color: rgb(165, 204, 218);
+}
+
+.bgcolor12 {
+    background-color: rgb(173, 216, 230);
+}
+
+.bgcolor13 {
+    background-color: red;
+    color: red;
+}
+
+.bgcolor14 {
+    background-color: rgb(204, 207, 209);
+}
+
+.bgcolor15 {
+    background-color: rgb(42, 79, 110);
+}
+
+.bgcolor {
+    color: aquamarine;
+    background-color: gainsboro;
+}
+
+.bgimg {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+
+
+
+}
+
+.colred {
+    color: red;
+}
+
+.bgcolred {
+    background-color: red;
+}
+
+.txtcentr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtcentr2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtend {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.w350 {
+    width: 350px;
+}
+
+.w396 {
+    width: 396px;
+}
+
+.w720 {
+    width: 720px;
+}
+
+.w800 {
+    width: 800px;
+}
+
+.w1920 {
+    width: 1920px;
+}
+
+.m0 {
+    margin: 0px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.m25 {
+    margin: 25px;
+}
+
+.m50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ml30 {
+    padding-left: 30px;
+}
+
+.fix {
+    margin: 0px;
+    padding: 12px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered2 {
+    display: flex;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.pt50 {
+    padding-top: 50px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pl30 {
+    padding-left: 30px;
+}
+
+.sizebox30 {
+    width: 45px;
+    height: 30px;
+}
+
+.sizebox50 {
+    width: 65px;
+    height: 50px;
+}
+
+.fs24 {
+    font-size: 24px;
+}
+
+.fs32 {
+    font-size: 32px;
+}
+
+.pt {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pt2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+}
+
+.fs {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.acol {
+    color: aqua;
+}
+
+.fsize {
+    font-size: 20px;
+}
+
+.fwbold {
+    font-weight: 900;
+}
+
+.op1 {
+    opacity: 100%;
+}
+
+.op70 {
+    opacity: 70%;
+}
+
+.op50 {
+    opacity: 50%;
+}
+
+.op30 {
+    opacity: 30%;
+}
+
+.op20 {
+    opacity: 20%;
+}
+
+.op10 {
+    opacity: 10%;
+}
+
+li::marker {
+    font-weight: 900;
+}
+
+.size64 {
+    width: 64px;
+    height: 64px;
+}
+
+.size256 {
+    width: 256px;
+    height: 256px;
+}
+
+.w50 {
+    width: 50px;
+}
+
+.w130 {
+    width: 130px;
+    height: 50px;
+}
+
+.h50 {
+    height: 50px;
+
+}
+.h80 {
+    height: 80px;
+
+}
+
+.brtp {
+    border-top: 2px red solid;
+
+}
+
+.brtp2 {
+    border-top: 2px rgb(255, 255, 255) solid;
+
+}
+
+.brbt {
+    border-bottom: 2px red solid;
+}
+
+.brbt2 {
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+h4:hover {
+    color: red;
+}
+
+.border {
+    border: 1px gray solid;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.thumbnail img {
+    border: 1px solid #333;
+}
+
+.thumbnail img:hover {
+    opacity: 70%;
+}
+
+.pt15 {
+    padding-top: 35px;
+}
+
+.gallery li {
+    float: left;
+    width: 177px;
+    padding: 20px;
+    list-style: none;
+    /* красивости */
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 15%;
+    text-align: center;
+    margin: 5px;
+}
+
+.menu3 {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+}
+
+.menu3 li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+    background-color: #7c7c7c;
+    font-size: 20px;
+}
+
+.menu3 li:hover {
+    background-color: #333;
+    /* Цвет фона при наведении */
+}
+
+.menu3 li img {
+    width: 64px;
+    /* Ширина иконки */
+    height: 64px;
+    /* Высота иконки */
+    margin-right: 10px;
+    /* Отступ между иконкой и текстом */
+
+}
+
+.footer {
+    float: left;
+    width: 33.3333333333333333333333333333333333333333333333333333333333333333333333333333%;
+    color: white;
+}
+
+.footer img {
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+
+.footer img:hover {
+    opacity: 70%;
+    color: red;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rollover {
+    background: url(fb_gray.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+.rollover:hover {
+    background: url(fb.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+
+.rollover1 {
+    background: url(insta_gray.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+.rollover1:hover {
+    background: url(insta.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+
+.rollover2 {
+    background: url(youtube_gray.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+.rollover2:hover {
+    background: url(youtube.png);
+    height: 64px;
+    width: 64px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header  {
+    background-color: rgb(146, 49, 88);
+    color: white;
+    padding: 5px;
+}
+.footer2, .menu{
+    background-color: rgb(110, 18, 55);
+    color: white;
+    padding: 5px;
+}
+.column {
+    float: left;
+    padding: 10px;
+    color: #ffffff;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu2 {
+    width: 25%;
+}
+.content {
+    width: 50%;
+    background-color: rgb(182, 92, 128);
+    color: #ffffff;
+}
+.section {
+    width: 100%;
+    background-color: rgb(219, 146, 175);
+    color: #ffffff;
+}
+.menu2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu2 li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: rgb(182, 92, 128);
+    color: #ffffff;
+}
+.menu2 li:hover {
+    background-color: #0099cc;
+}
+
+.mw650{
+    min-width: 50px;
+    width: 650px;
+    max-width: 1920px;
+}
